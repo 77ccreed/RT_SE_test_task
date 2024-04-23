@@ -18,15 +18,6 @@ The project is organized into several directories and files:
     - `test_script.php`: A test script that creates `Patient` objects for all patients in the database and prints a table of their insurances and whether they are valid on the current date.
 - `README.md`: Project documentation.
 
-## Setup
-
-To set up the project:
-
-1. Start your MySQL server.
-2. Create a new database named `test_task`.
-3. Run the `schema.sql` script to create and populate the `patient` and `insurance` tables in the `test_task` database.
-4. Update the database connection parameters in the PHP scripts if necessary.
-
 ## Usage
 
 To use the project, run the PHP scripts in the `/php` directory. For example, to run the `test_script.php` script, use the following command:
