@@ -10,5 +10,10 @@ The project is organized into several directories and files:
   - **/database**
     - `schema.sql`: SQL scripts for creating and populating database tables.
   - **/php**
-  - `README.md`: Project documentation.
-  
+    - `Insurance.php`: Defines the `Insurance` class, which represents an insurance policy.
+    - `Patient.php`: Defines the `Patient` class, which represents a patient and their associated insurances.
+    - `PatientRecord.php`: Defines the `PatientRecord` interface, which the `Patient` class implements.
+    - `name_statistics.php`: A script that calculates and displays statistics about the names of the patients in the database.
+    - `patient_insurance_info.php`: A script that displays information about the patients and their insurances in the database.
+    - `test_script.php`: A test script that creates `Patient` objects for all patients in the database and prints a table of their insurances and whether they are valid on the current date.
+- `README.md`: Project documentation.
